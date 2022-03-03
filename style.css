@@ -5,8 +5,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
 /*
@@ -33,3 +36,27 @@
 /*
 ** Global config
 */
+
+.oneSecureLocation{
+    background-color: white;
+}
+
+.stayProductive{
+    background-color: var(--color_LightGrayishBlue);
+}
+
+.comment{
+    background-color: white;
+}
+
+.earlyAccess{
+    background-color: var(--color_DesaturatedBlue);
+}
+
+footer{
+    background-color: var(--color_VeryDarkBlue);
+}
+
+.fa-brands{
+    color: white;
+}
